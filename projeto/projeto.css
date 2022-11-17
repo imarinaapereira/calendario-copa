@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+ul{
+  list-style: none;
+}
+
+
+li img{
+width: 60px;
+border-radius: 50%;
+}
+
+#app{
+  width:fit-content;
+  margin: 52px auto;
+}
+
+body{
+  background-image: url(https://th.bing.com/th/id/OIP.iIWsln90YYlxvBzA2ZRFtAHaFj?w=217&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+  background-position-x: center;
+  background-position-y: 55.6% ;
+  background-size: 100% auto;
+  background-repeat:no-repeat;
+  background-color: #00000f;
+  background-position:top center;
+}
+
+body*{
+  font-family:'Roboto', sans-serif;
+}
+
+header{
+  margin-bottom: 63px;
+}
+
+.card{
+  padding: 32px 23px;
+  text-align: center;
+
+  background: #1d1c19; ;
+  border-bottom: 2px solid #F7DD43 ;
+  border-radius: 6px;
+}
+
+.Tcard{
+  padding: 32px 23px;
+  text-align: center;
+
+  background: #1d1c19; ;
+  border-bottom: 2px solid #F7DD43 ;
+  border-radius: 6px;
+}
+
+.xcard{
+  padding: 32px 23px;
+  text-align: center;
+
+  background: #1d1c19; ;
+  border-bottom: 2px solid #F7DD43 ;
+  border-radius: 6px;
+}
+
+
+.card h2{
+
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px ;
+  border: 1px solid #746615;
+  border-radius: 6px;
+
+  width: fit-content;
+  margin-inline: auto;
+   margin-bottom:53px;
+
+   color:#F7DD43;}
+
+
+   .Tcard h2{
+
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px ;
+    border: 1px solid #746615;
+    border-radius: 6px;
+  
+    width: fit-content;
+    margin-inline: auto;
+     margin-bottom:53px;
+  
+     color:#F7DD43;}
+  
+  
+#app header {
+  text-align: center;
+}
+
+.xcard h2{
+
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px ;
+  border: 1px solid #746615;
+  border-radius: 6px;
+
+  width: fit-content;
+  margin-inline: auto;
+   margin-bottom:53px;
+
+   color:#F7DD43;}
+
+#app header {
+  text-align: center;
+}
+
+
+.card ul li{
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.Tcard ul li{
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+
+
+.xcard ul li{
+  display:flex;
+  align-items: center;
+  justify-content:space-between;
+}
+ 
+.card ul li + li{
+padding-top :24px; 
+border-top: 1px solid #323238;
+}
+
+.Tcard ul li + li{
+  padding-top :24px; 
+  border-top: 1px solid #323238;
+  }
+.xcard ul li + li{
+  padding-top :24px; 
+  border-top: 1px solid #323238;
+  }
+
+.card ul{
+  display: flex;
+  flex-direction:column;
+  gap:24px;
+
+  width: 270px;
+
+}
+.Tcard ul{
+  display: flex;
+  flex-direction:column;
+  gap:24px;
+
+  width: 270px;
+
+}
+.xcard ul{
+  display: flex;
+  flex-direction:column;
+  gap:24px;
+
+  width: 270px;
+
+}
+   .xcard{
+  margin-top: 25px;
+}
+.Tcard h2 span{
+  color:#e1e1e6;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+   .card h2 span{
+  color:#e1e1e6;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+   .xcard h2 span{
+  color:#e1e1e6;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.card ul li strong{
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 125%;
+  color:#e1e1e6;
+}
+
+.Tcard ul li strong{
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 125%;
+  color:#e1e1e6;
+}
+
+.xcard ul li strong{
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 125%;
+  color:#e1e1e6;
+}
+
+.Tcard{
+  margin-top:25px;
+}
