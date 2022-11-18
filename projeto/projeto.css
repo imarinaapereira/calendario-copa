@@ -4,6 +4,19 @@
   box-sizing:border-box;
 }
 
+:root{
+  --card-title-border-color:#746615;
+  --card-color-primary:#f7dd43;
+
+}
+
+body.blue{
+  --card-title-border-color:rgb(50, 236, 50);
+  --card-color-primary:  rgb(78, 60, 244);
+  
+
+}
+
 ul{
   list-style: none;
 }
@@ -42,7 +55,7 @@ header{
   text-align: center;
 
   background: #1d1c19; ;
-  border-bottom: 2px solid #F7DD43 ;
+  border-bottom: 2px solid var(--card-color-primary) ;
   border-radius: 6px;
 }
 
@@ -51,7 +64,7 @@ header{
   text-align: center;
 
   background: #1d1c19; ;
-  border-bottom: 2px solid #F7DD43 ;
+  border-bottom: 2px solid var(--card-color-primary) ;
   border-radius: 6px;
 }
 
@@ -60,7 +73,7 @@ header{
   text-align: center;
 
   background: #1d1c19; ;
-  border-bottom: 2px solid #F7DD43 ;
+  border-bottom: 2px solid var(--card-color-primary) ;
   border-radius: 6px;
 }
 
@@ -72,7 +85,7 @@ header{
   justify-content: center;
   align-items: center;
   padding: 8px 16px ;
-  border: 1px solid #746615;
+  border: 1px solid var(--card-title-border-color);
   border-radius: 6px;
 
   width: fit-content;
@@ -89,7 +102,7 @@ header{
     justify-content: center;
     align-items: center;
     padding: 8px 16px ;
-    border: 1px solid #746615;
+    border: 1px solid var(--card-title-border-color);
     border-radius: 6px;
   
     width: fit-content;
@@ -110,7 +123,7 @@ header{
   justify-content: center;
   align-items: center;
   padding: 8px 16px ;
-  border: 1px solid #746615;
+  border: 1px solid var(--card-title-border-color);
   border-radius: 6px;
 
   width: fit-content;
@@ -223,4 +236,37 @@ border-top: 1px solid #323238;
 
 .Tcard{
   margin-top:25px;
+}
+
+.card ul li strong:hover,
+.Tcard ul li strong:hover,
+.xcard ul li strong:hover{
+  transform: scale(1.1);
+}
+
+.card ul li img:hover,
+.Tcard ul li img:hover,
+.xcard ul li img:hover{
+  transform:scale(1.1);
+}
+
+.card h2:hover,
+.Tcard h2:hover,
+.xcard h2:hover{
+  transform:scale(1.2);
+}
+
+
+@keyframes appear{
+0%
+{ transform: translateX(-50px);
+  opacity:0;}
+100%{
+  opacity: 1;
+}
+}
+.card,
+.Tcard,
+.xcard{
+  animation:appear .5s;
 }
