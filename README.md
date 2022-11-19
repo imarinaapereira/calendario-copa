@@ -12,7 +12,7 @@ Esse projeto é uma simulação  de um calendário da copa
  ##layot
  
  acesse agora 
- file///C:/Users/lfigu/Documents/GitHub/calendario-copa/projeto/projeto.html
+ https://file///C:/Users/lfigu/Documents/GitHub/calendario-copa/projeto/projeto.html
  
  
  
